@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements MasterListFragmen
     // Define the behavior for onImageSelected
     public void onImageSelected(int position) {
         // Create a Toast that displays the position that was clicked
-        Toast.makeText(this, "Position clicked = " + position, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Android part clicked = " + position, Toast.LENGTH_SHORT).show();
 
         // Based on where a user has clicked, store the selected list index for the head, body, and leg BodyPartFragments
 
